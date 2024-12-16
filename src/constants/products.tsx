@@ -5,6 +5,8 @@ import milowImage from "public/images/milow.png";
 import emologImage from "public/images/emolog.png";
 import blinkyImage from "public/images/blinky.jpg";
 import lumiImage from "public/images/lhumi.png";
+import zaphuntImage from "public/images/zaphunt.png";
+import zaphuntImage2 from "public/images/zaphunt2.png";
 
 export const products = [
   {
@@ -75,7 +77,7 @@ export const products = [
     ),
   },
   {
-    href: "#",
+    href: "https://blinky.vercel.app",
     title: "Blinky",
     description:
       "Intelligent project and finance manager that simplifies control of your activities and financial resources.",
@@ -95,7 +97,7 @@ export const products = [
     ),
   },
   {
-    href: "#",
+    href: "https://lhumi.vercel.app",
     title: "Lumi",
     description:
       "Modern event management platform that simplifies the organization, promotion, and management of memorable experiences.",
@@ -110,6 +112,25 @@ export const products = [
           process from conception to execution. With modern organization,
           promotion, and management features, it makes event creation a more
           efficient and enjoyable experience.
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://zaphunt.vercel.app",
+    title: "Zaphunt",
+    description:
+      "A modern and efficient platform for finding products and services in Mozambique.",
+    thumbnail: zaphuntImage,
+    images: [zaphuntImage, zaphuntImage2],
+    stack: ["Nextjs", "Tailwindcss", "TypeScript"],
+    slug: "zaphunt",
+    content: (
+      <div>
+        <p>
+          Zaphunt is a modern and efficient platform for finding products and
+          services in Mozambique. With a focus on usability and transparency, we
+          connect buyers, sellers, and landlords.
         </p>
       </div>
     ),
