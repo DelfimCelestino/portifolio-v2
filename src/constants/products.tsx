@@ -7,7 +7,7 @@ import blinkyImage from "public/images/blinky.jpg";
 import lumiImage from "public/images/lhumi.png";
 import zaphuntImage from "public/images/zaphunt.png";
 import zaphuntImage2 from "public/images/zaphunt2.png";
-
+import rocketVideoPlayerImage from "public/images/rocket-video-player.png";
 export const products = [
   {
     href: "https://www.findizi.com",
@@ -57,6 +57,23 @@ export const products = [
     ),
   },
   {
+    href: "https://rocket-video-player.vercel.app",
+    title: "Rocket Video Player",
+    description:
+      "A modern and efficient platform for finding products and services in Mozambique.",
+    thumbnail: rocketVideoPlayerImage,
+    images: [rocketVideoPlayerImage],
+    stack: ["Nextjs", "Tailwindcss", "TypeScript"],
+    slug: "rocket-video-player",
+    content: (
+      <div>
+        <p>
+          A modern video platform built with Next.js 14, React, and TailwindCSS.
+        </p>
+      </div>
+    ),
+  },
+  {
     href: "https://emolog.vercel.app",
     title: "EMOLOG",
     description:
@@ -97,6 +114,25 @@ export const products = [
     ),
   },
   {
+    href: "https://zaphunt.vercel.app",
+    title: "Zaphunt",
+    description:
+      "A modern and efficient platform for finding products and services in Mozambique.",
+    thumbnail: zaphuntImage,
+    images: [zaphuntImage, zaphuntImage2],
+    stack: ["Nextjs", "Tailwindcss", "TypeScript"],
+    slug: "zaphunt",
+    content: (
+      <div>
+        <p>
+          Zaphunt is a modern and efficient platform for finding products and
+          services in Mozambique. With a focus on usability and transparency, we
+          connect buyers, sellers, and landlords.
+        </p>
+      </div>
+    ),
+  },
+  {
     href: "https://lhumi.vercel.app",
     title: "Lumi",
     description:
@@ -112,25 +148,6 @@ export const products = [
           process from conception to execution. With modern organization,
           promotion, and management features, it makes event creation a more
           efficient and enjoyable experience.
-        </p>
-      </div>
-    ),
-  },
-  {
-    href: "https://zaphunt.vercel.app",
-    title: "Zaphunt",
-    description:
-      "A modern and efficient platform for finding products and services in Mozambique.",
-    thumbnail: zaphuntImage,
-    images: [zaphuntImage, zaphuntImage2],
-    stack: ["Nextjs", "Tailwindcss", "TypeScript"],
-    slug: "zaphunt",
-    content: (
-      <div>
-        <p>
-          Zaphunt is a modern and efficient platform for finding products and
-          services in Mozambique. With a focus on usability and transparency, we
-          connect buyers, sellers, and landlords.
         </p>
       </div>
     ),
