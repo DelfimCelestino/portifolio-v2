@@ -1,6 +1,11 @@
 import findiziImage from "public/images/findizi.jpg";
 import findiziImage1 from "public/images/findizi-image1.jpg";
 import findiziImage2 from "public/images/findizi-image2.jpg";
+import melt1 from "public/images/melt1.png";
+import melt2 from "public/images/melt2.png";
+import melt3 from "public/images/melt3.png";
+import blind1 from "public/images/blind1.png";
+import blind2 from "public/images/blind2.png";
 import milowImage from "public/images/milow.png";
 import emologImage from "public/images/emolog.png";
 import blinkyImage from "public/images/blinky.jpg";
@@ -16,7 +21,7 @@ export const products = [
       "An innovative platform connecting Mozambican talents to opportunities. From informal to formal sectors, find qualified professionals in various areas - from programmers and designers to electricians and builders.",
     thumbnail: findiziImage,
     images: [findiziImage, findiziImage1, findiziImage2],
-    stack: ["Nextjs", "Tailwindcss", "TypeScript"],
+    stack: ["Nextjs", "Tailwindcss", "TypeScript", "NodeJs", "Prisma", "SQL"],
     slug: "findizi",
     content: (
       <div>
@@ -37,13 +42,45 @@ export const products = [
     ),
   },
   {
+    href: "https://melt-system.vercel.app",
+    title: "Melt",
+    description: "Sistema de gestão de mesas e pedidos para restaurantes.",
+    thumbnail: melt3,
+    images: [melt1, melt2, melt3],
+    stack: ["Nextjs", "Tailwindcss", "TypeScript", "NodeJs", "Prisma", "SQL"],
+    slug: "melt",
+    content: (
+      <div>
+        <p>
+          A modern Point of Sale (POS) system built with Next.js 14, featuring a
+          sleek interface and efficient workflow for restaurants and retail
+          stores.
+        </p>
+      </div>
+    ),
+  },
+  {
+    href: "https://blindcode.vercel.app",
+    title: "BlindCode",
+    description: "Code In The Dark My Version.",
+    thumbnail: blind1,
+    images: [blind1, blind2],
+    stack: ["Nextjs", "Tailwindcss", "TypeScript", "NodeJs", "Prisma", "SQL"],
+    slug: "blindcode",
+    content: (
+      <div>
+        <p>Code in The dark and see the results after</p>
+      </div>
+    ),
+  },
+  {
     href: "https://milow.vercel.app",
     title: "Milow",
     description:
       "A modern real estate platform for Mozambique, simplifying property search and negotiation with a superior digital experience.",
     thumbnail: milowImage,
     images: [milowImage],
-    stack: ["Nextjs", "Tailwindcss", "TypeScript"],
+    stack: ["Nextjs", "Tailwindcss", "TypeScript", "NodeJs", "Prisma", "SQL"],
     slug: "milow",
     content: (
       <div>
@@ -94,7 +131,7 @@ export const products = [
     ),
   },
   {
-    href: "https://blinky.vercel.app",
+    href: "https://blinky-sand.vercel.app",
     title: "Blinky",
     description:
       "Intelligent project and finance manager that simplifies control of your activities and financial resources.",
