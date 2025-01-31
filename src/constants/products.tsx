@@ -13,7 +13,60 @@ import lumiImage from "public/images/lhumi.png";
 import zaphuntImage from "public/images/zaphunt.png";
 import zaphuntImage2 from "public/images/zaphunt2.png";
 import rocketVideoPlayerImage from "public/images/rocket-video-player.png";
+import owaniImage from "public/images/owani.png"; // Adicione a imagem do Owani
+import owaniImage2 from "public/images/owani2.png"; // Adicione a imagem do Owani
+import owaniImage3 from "public/images/owani3.png"; // Adicione a imagem do Owani
+
 export const products = [
+  {
+    href: "https://owani.vercel.app",
+    title: "Owani",
+    description:
+      "Uma plataforma de real estate projetada para atender às necessidades específicas do mercado imobiliário de Moçambique. Conecta acompanhantes — profissionais que auxiliam em visitas a imóveis para alugar — com potenciais inquilinos e proprietários.",
+    thumbnail: owaniImage,
+    images: [owaniImage, owaniImage2, owaniImage3],
+    stack: [
+      "Expo",
+      "React Native",
+      "Tailwindcss",
+      "TypeScript",
+      "NodeJs",
+      "Prisma",
+      "SQL",
+    ],
+    slug: "owani",
+    content: (
+      <div>
+        <p>
+          O Owani é uma plataforma de real estate projetada para atender às
+          necessidades específicas do mercado imobiliário de Moçambique. O foco
+          principal é conectar acompanhantes — profissionais que auxiliam
+          pessoas em visitas a imóveis para alugar — com potenciais inquilinos e
+          proprietários.
+        </p>
+        <p>
+          A plataforma permite que os acompanhantes cadastrem seu serviço,
+          publiquem casas que conhecem e interajam diretamente com os
+          interessados em alugar imóveis. Isso cria um ecossistema transparente
+          e eficiente para quem busca moradias de aluguel e para quem oferece
+          suporte nesse processo.
+        </p>
+        <p>
+          <strong>Termos de Uso:</strong> Ao utilizar a plataforma Owani, você
+          concorda em fornecer informações precisas e atualizadas, e em utilizar
+          o serviço de forma ética e legal. A plataforma reserva-se o direito de
+          suspender ou encerrar contas que violem estes termos.
+        </p>
+        <p>
+          <strong>Política de Privacidade:</strong> Coletamos informações como
+          nome, foto, e-mail, número de telefone e localização (com sua
+          permissão) para facilitar o uso da plataforma e efetuar pagamentos.
+          Suas informações são protegidas e não serão compartilhadas com
+          terceiros sem sua autorização explícita.
+        </p>
+      </div>
+    ),
+  },
   {
     href: "https://www.findizi.com",
     title: "Findizi",
