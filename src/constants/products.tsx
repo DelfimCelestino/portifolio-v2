@@ -19,7 +19,7 @@ import owaniImage3 from "public/images/owani3.png"; // Adicione a imagem do Owan
 
 export const products = [
   {
-    href: "https://owani.vercel.app",
+    href: "https://play.google.com/store/apps/details?id=com.nirmata.owani",
     title: "Owani",
     description:
       "Uma plataforma de real estate projetada para atender às necessidades específicas do mercado imobiliário de Moçambique. Conecta acompanhantes — profissionais que auxiliam em visitas a imóveis para alugar — com potenciais inquilinos e proprietários.",
